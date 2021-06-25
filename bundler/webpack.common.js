@@ -18,6 +18,12 @@ module.exports = {
 			template: path.resolve(__dirname, "../src/index.html"),
 			minify: false,
 		}),
+		new HtmlWebpackPlugin({
+			// Also generate a test.html
+			filename: "about.html",
+			template: "src/about.html",
+		}),
+
 		new MiniCSSExtractPlugin(),
 	],
 	module: {
