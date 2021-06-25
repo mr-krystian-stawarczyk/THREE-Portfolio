@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<link
+			rel="stylesheet"
+			href="//use.fontawesome.com/releases/v5.7.2/css/all.css"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dosis"
+			rel="stylesheet"
+		/>
+		<title>K.Stawarczyk Contact</title>
+	</head>
+	<body>
+		<!--   Header        -->
+		<header id="header-inner">
+			<div class="container">
+				<nav id="main-nav">
+					<a href="index.html" id="logo-anchor">
+						<img src="/static/imgs/logo3.png" alt="Logo" id="logo"
+					/></a>
+
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="work.html">Work</a></li>
+						<li><a href="contact.html" class="current">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!--SECTION A CONTACT FORM -->
+		<section id="contact-a" class="text-center py-2">
+			<div class="container">
+				<h2 class="section-title">Contact Me</h2>
+				<div class="bottom-line"></div>
+				<p class="lead">I WILL REPLY AS SOON AS POSSIBLE</p>
+				<form
+					name="contact"
+					method="POST"
+					data-netlify="true"
+					data-netlify-recaptcha="true"
+				>
+					<div class="text-fields">
+						<input
+							type="text"
+							class="text-input name-input"
+							placeholder="Name"
+							name="name"
+						/>
+						<input
+							type="text"
+							class="text-input subject-input"
+							placeholder="Subject"
+							name="subject"
+						/>
+						<input
+							type="email"
+							class="text-input email-input"
+							placeholder="Email"
+							name="email"
+						/>
+						<input
+							type="text"
+							class="text-input phone-input"
+							placeholder="Phone"
+							name="phone"
+						/>
+						<textarea
+							class="text-input message-input"
+							placeholder="Please Leave a Message"
+							name="message"
+						></textarea>
+						<div class="my-2" id="recap">
+							<div data-netlify-recaptcha="true"></div>
+						</div>
+					</div>
+					<button type="submit" class="btn-dark">Submit</button>
+				</form>
+			</div>
+		</section>
+
+		<!--SECTION B CONTACT FORM -->
+
+		<section id="contact-b" class="py-3 bg-dark">
+			<div class="container">
+				<div class="contact-info">
+					<div>
+						<i class="fas fa-envelope fa-2x"></i>
+						<h3>E-mail</h3>
+						<p>mr.krystian.stawarczyk@gmail.com</p>
+					</div>
+					<div>
+						<i class="fas fa-phone fa-2x"></i>
+						<h3>Phone</h3>
+						<p>0048-726-897-493</p>
+						<p>(EN-DE-PL)</p>
+					</div>
+					<div>
+						<i class="fas fa-address-card fa-2x"></i>
+						<h3>Address</h3>
+						<p>Fasanenstr.10 41334 Nettetal</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--SECTION C CONTACT FORM -->
+
+		<section id="contact-c" class="bg-dark py-2">
+			<div class="container">
+				<h1>Start Your Dream Project!</h1>
+			</div>
+		</section>
+
+		<!-- FOOTER -->
+
+		<footer id="main-footer">
+			<div class="footer-content container">
+				<p>Copyright &copy; K.Stawarczyk 2021 All Rights Reserver</p>
+				<div class="social">
+					<a href="https://github.com/mr-krystian-stawarczyk"
+						><i class="fab fa-git"></i
+					></a>
+					<a href="https://www.facebook.com/krystian.stawarczyk.5">
+						<i class="fab fa-facebook"> </i></a
+					><a href="https://www.linkedin.com/in/krystian-stawarczyk-240476212">
+						<i class="fab fa-linkedin"> </i>
+					</a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

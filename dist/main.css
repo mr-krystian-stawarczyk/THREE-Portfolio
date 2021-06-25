@@ -9,7 +9,7 @@
 html,
 body {
 	height: 100vh;
-	background-image: url("../static/imgs/galaxy-background.jpg");
+	background-image: url(assets/images/4ee76d788a552ada7f6399ec848752c9.jpg);
 }
 
 body {
@@ -705,3 +705,6 @@ img {
 		font-size: 2rem;
 	}
 }
+
+
+/*# sourceMappingURL=main.css.map*/
