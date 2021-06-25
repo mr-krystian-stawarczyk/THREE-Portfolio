@@ -9,6 +9,7 @@ module.exports = {
 		filename: "bundle.[contenthash].js",
 		path: path.resolve(__dirname, "../dist"),
 	},
+
 	devtool: "source-map",
 	plugins: [
 		new CopyWebpackPlugin({
@@ -22,6 +23,16 @@ module.exports = {
 			// Also generate a test.html
 			filename: "about.html",
 			template: "src/about.html",
+		}),
+		new HtmlWebpackPlugin({
+			// Also generate a test.html
+			filename: "work.html",
+			template: "src/work.html",
+		}),
+		new HtmlWebpackPlugin({
+			// Also generate a test.html
+			filename: "contact.html",
+			template: "src/contact.html",
 		}),
 
 		new MiniCSSExtractPlugin(),
